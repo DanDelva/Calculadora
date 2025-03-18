@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conversión Numérica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor Numérico</h1>
+        <label for="conversionType">Selecciona una conversión:</label>
+        <select id="conversionType">
+            <option value="dec-bin">Decimal → Binario</option>
+            <option value="dec-oct">Decimal → Octal</option>
+            <option value="dec-hex">Decimal → Hexadecimal</option>
+            <option value="bin-dec">Binario → Decimal</option>
+            <option value="oct-dec">Octal → Decimal</option>
+            <option value="hex-dec">Hexadecimal → Decimal</option>
+        </select>
+
+        <label for="inputNumber">Ingrese el número:</label>
+        <input type="text" id="inputNumber" placeholder="Ingrese el número">
+
+        <button id="convertButton">Convertir</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
